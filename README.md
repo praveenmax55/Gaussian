@@ -14,13 +14,11 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 4. 
 
 ## Program:
-```
-/*
+```python
 Program to find the solution of a matrix using Gaussian Elimination.
-Developed by: 
-RegisterNumber: 
-*/
-``
+Developed by: Praveen D
+RegisterNumber:22005917
+
 import numpy as np
 import sys
 n=int(input()) #input
@@ -58,6 +56,7 @@ for i in range(n-2,-1,-1):
 #print the solution
 for i in range(n):
     print('X%d = %0.2f'%(i,x[i]),end=' ')
+```
 ## Output:
 ![gaussian elimination](output10.png)
 
